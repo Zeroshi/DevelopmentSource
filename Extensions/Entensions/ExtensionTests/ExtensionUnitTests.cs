@@ -26,5 +26,15 @@ namespace ExtensionTests
 
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void RandomOutputTest()
+        {
+            var test = "abcd dfsg ts";
+            var expected = "dcba dfsg ts";
+            var actual = test.RandomOutput();
+
+            Assert.IsTrue(expected.Length == actual.Length);
+        }
     }
 }
