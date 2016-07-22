@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFClient", "WCFClient\WCFClient.csproj", "{AA5E767E-ED29-4DF1-91E4-8FBD9458B569}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFMessage", "WCFMessage\WCFMessage.csproj", "{5A82A758-755F-4823-B244-A36A4FE4FF9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFMessage", "..\WCFMessage\WCFMessage.csproj", "{5A82A758-755F-4823-B244-A36A4FE4FF9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

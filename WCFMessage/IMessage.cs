@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace WCFMessage
 {
-    public class Message
+    public interface IMessage
     {
+        Guid Identity { get; set; }
+        string MessageBody { get; set; }
+        DateTime DT { get; set; }
     }
 }
